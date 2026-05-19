@@ -4,3 +4,16 @@ using namespace std;
 class AbstraksiKlas {
 private: string x, y;
 
+public:
+    // method untuk mengisi nilai
+    void setXY(string a, string b) {
+        x = a;
+        y = b;
+    }
+
+    void display() {
+        cout << "Nilai x = " << x << endl;
+        cout << "Nilai y = " << y << endl;
+    }
+};
+
